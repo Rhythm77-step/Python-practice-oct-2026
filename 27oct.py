@@ -44,7 +44,7 @@ num_1=int(num_1)
 num_2=int(num_2)
 
 print(num_1+num_2)
-"""
+
 courses= ["Maths","Chemistry","Dld","Python"]
 print(courses)
 print(len(courses))
@@ -63,6 +63,69 @@ sorted_courses=sorted(courses)
 print(sorted_courses)
 
 print(courses)
+
+courses=["maths","art","Python","Java"]
+courses.sort()
+print(courses)
+nums=[23,4,12,78]
+nums.sort(reverse=True)
+print(nums)
+print(min(nums))
+print(max(nums))
+print(sum(nums))
+print(courses.index("Python"))
+print("Python" in courses)
+for course in courses:
+    print(course)
+for index,course in enumerate(courses):
+    print(index,course)
+course_str= '-'.join(courses)
+print(course_str)
+string="Rhythm-Tripathi-Amarpatan"
+new_str=string.split('-')
+print(new_str)
+list_1=["Maths","python","Java"]
+list_2=list_1
+list_2="Art"
+print(list_1)
+print(list_2)
+
+tuple_1=("Rhythm","pravi","Amarpatan")
+tuple_2=tuple_1
+tuple_2="Art"
+print(tuple_1)
+"""
+courses_1={"Maths","Python","java"}
+courses_2={"Hindi","digitallogic","Python","Java"}
+print(courses_1.intersection(courses_2))
+print(courses_1.difference(courses_2))
+print(courses_1.union(courses_2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
