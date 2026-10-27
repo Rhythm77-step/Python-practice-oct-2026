@@ -94,12 +94,62 @@ tuple_1=("Rhythm","pravi","Amarpatan")
 tuple_2=tuple_1
 tuple_2="Art"
 print(tuple_1)
-"""
+
 courses_1={"Maths","Python","java"}
 courses_2={"Hindi","digitallogic","Python","Java"}
 print(courses_1.intersection(courses_2))
 print(courses_1.difference(courses_2))
 print(courses_1.union(courses_2))
+
+empty_list=[]
+empty_tuple=()
+empty_set=set()
+print(empty_set)
+print(empty_set)
+print(empty_list)
+print(empty_tuple)
+"""
+student={1:"Rhythm", "age":20,"courses":["Python","Java"]}
+#print(student)
+#print(student[1])
+#print(student["courses"])
+"""
+print(student.get("age"))
+print(student.get("courses"))
+print(student.get('phone','Not found'))
+student["gender"]="male"
+student.update({1:"Peter", "age":21})
+print(student)
+
+print(len(student))
+print(student.keys())
+print(student.values())
+print(student.items())
+"""
+for key in student:
+    print(key)
+for key,value in student.items():
+    print(key,value)
+        
+
+
+
+
+
+
+
+
+
+
+         
+
+    
+
+
+
+
+
+
 
 
 
