@@ -125,12 +125,117 @@ print(len(student))
 print(student.keys())
 print(student.values())
 print(student.items())
-"""
+
 for key in student:
     print(key)
 for key,value in student.items():
     print(key,value)
+
+language="kotlin"
+if language=="python":
+    print('Language is Python')
+elif language=="java":
+    print('Langauge is Java')
+elif language=='javascript':
+    print('Language is Javascript')
+else:
+    print('No match')
+    
+user='Admin'
+logged_in= False
+if user=='Admin' and logged_in:
+    print('Admin Page')
+
+else:
+    print('Bad Creds')
+logged_in=True
+if not logged_in:
+    print('Please log in')
+else:
+    print('Welcome')
+
+user='None'
+logged_in=False
+if user=='Admin' or logged_in:
+    print('Admin page')
+
+else:
+    print('Bad Creds')
+a=[12-14]
+b=[12-14]
+print(a==b)
+print(a is b)
+print(id(a))
+print(id(b))
+print(id(a)==id(b))
+
+condition='Test'
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
+
+nums=[3,4,5,6,7]
+for num in nums:
+    for letter in 'abc':
+        print(num,letter)
+
+for i in range(10):
+    print(i)
+for i in range(1,11):
+    print(i)
+
+x=0
+while x<10:
+    print(x)
+    x+=1
+
+x=0
+while x<10:
+    if x==5:
+        break
         
+    print(x)
+    x+=1
+
+x=0
+while True:
+    print(x)
+    x+=1
+    """
+#defining an empty function 
+def hello_func():
+    print("hello function")
+
+hello_func()    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
